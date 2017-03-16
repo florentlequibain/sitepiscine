@@ -1,0 +1,145 @@
+body
+{
+  margin: 0;
+}
+
+
+h1, h2, h3, a
+{
+  font-family: 'Lobster', cursive;
+}
+
+p, li
+{
+  font-family: 'Clicker Script', cursive;
+}
+
+  /*
+  ~~~~~~~~~~~~~~~~~~COMMON RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF COMMON RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~HEADER RULES~~~~~~~~~~~~~~~~~~~
+  */
+header
+{
+  background-color: green;
+}
+
+header aside
+{
+  background-color: yellow;
+  width: 20%;
+}
+
+header section
+{
+  background-color: blue;
+  width: 70%;
+}
+
+header aside, header section
+{
+  display: inline-block;
+}
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF HEADER RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~SECTION BANDEAU RULES~~~~~~~~~~~~~~~~~~~
+  */
+.bandeau
+{
+  background-color: lightblue;
+  width: 20%;
+  height: 500px;
+}
+
+.bandeau nav
+{
+  background-color: yellow;
+}
+
+.bandeau aside
+{
+  background-color: red;
+}
+
+.bandeau aside article
+{
+  background-color: white;
+}
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF SECTION BANDEAU RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~SECTION PRODUCTS RULES~~~~~~~~~~~~~~~~~~~
+  */
+.products
+{
+  background-color: pink;
+  width: 65%;
+  height: 500px
+}
+
+.products article
+{
+  background color: white;
+}
+
+.bandeau, .products
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF SECTION PRODUCTS RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+
+
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~DIV RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF DIV RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~FOOTER RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF FOOTER RULES~~~~~~~~~~~~~~~~~~~
+  */
