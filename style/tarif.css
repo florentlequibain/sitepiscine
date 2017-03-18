@@ -6,17 +6,17 @@ body
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, a
+h1, h2, h3, h4, h5, a, th
 {
   font-family: 'Lobster', cursive;
 }
 
-p, li
+p, li, td
 {
   font-family: 'Poiret+One', sans-serif;
 }
 
-.bandeau, .products
+.bandeau, .tableau
 {
   display: inline-block;
   vertical-align: top;
@@ -161,14 +161,15 @@ header aside, header section
   /*
   ~~~~~~~~~~~~~~~~~~SECTION PRODUCTS RULES~~~~~~~~~~~~~~~~~~~
   */
-.products
+.tableau
 {
-  width: 79%;
-  height: 1500px;
+  width: 75%;
+  height: 600px;
   margin-top: 2em;
+  padding: 2%;
 }
 
-.products h2
+.tableau h2
 {
   margin: auto;
   text-align: center;
@@ -189,69 +190,40 @@ header aside, header section
 /*
 ~~~~~~~~~~~~~~~~~~START OF ARTICLE PRODUCTS RULES~~~~~~~~~~~~~~~~~~~
 */
-.products article
+.tableau article
 {
   background-color:rgba(0,0,0,0.2);
-  width: 98%;
+  width: 30%;
   height: 450px;
   border-radius: 10px;
-  margin:auto;
+  margin:1%;
+  display: inline-block;
+  vertical-align: top;
 }
 
-.products article div p
-{
-  font-size: 1.2em;
-  text-align: justify;
-  width: 50%;
-}
-
-.products article h3
+.tableau article h3
 {
   text-align: center;
   font-size: 1.8em;
 }
 
-.products article div
+td
 {
-  height: 70%;
-  width: 100%;
+  border:1px solid black;
 }
 
-.product article figure
+
+th
 {
-  background-color: green;
-  margin:0;
+  border:1px solid black;
 }
 
-.products article a
+
+table
 {
-  text-decoration: none;
-  color: white;
-  font-size: 1.5em;
-  display:block;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 20%;
-  text-align: center;
-  margin: auto;
-  margin-top:2%;
-  border-radius: 10px;
+  border-collapse: collapse;
 }
 
-.products article a:hover
-{
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.products article div p, figure
-{
-  vertical-align: middle;
-  display: inline-block;
-}
-
-.products article p, .imageproduit
-{
-  vertical-align: top;
-}
   /*
   ~~~~~~~~~~~~~~~~~~END OF ARTICLE PRODUCTS RULES~~~~~~~~~~~~~~~~~~~
   */

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/contact.css" />
     <link href="https://fonts.googleapis.com/css?family=Lobster|Poiret+One" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="images/piscine.ico" />
@@ -18,7 +18,7 @@
 
         <aside>
           <figure>
-            <img src="images/logo.png" alt="logo">
+            <img src="images/contact.png" alt="logo">
           </figure>
         </aside>
 
@@ -36,9 +36,9 @@
   <!--~~~~~~~~~~~~~~~~~~~~~ start of the nav~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <nav>
           <li>
-            <ul><a class="lienpage" href="index.html">Accueil</a></ul>
+            <ul><a href="index.html">Accueil</a></ul>
             <ul><a href="tarif.html">Tarifs</a></ul>
-            <ul><a href="contact.html">Contact</a></ul>
+            <ul><a class="lienpage" href="contact.html">Contact</a></ul>
             <ul><a href="entreprise.html">Entreprise</a></ul>
           </li>
         </nav>
@@ -75,61 +75,36 @@
           </article>
         </aside>
   <!--~~~~~~~~~~~~~~~~~~~~~ end of the aside~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-
       </section>
   <!--~~~~~~~~~~~~~~~~~~~~~ end of the section bandeau~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 
 
   <!--~~~~~~~~~~~~~~~~~~~~~ start of the section products~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-      <section class="products">
-        <h2>Les Produits Phares</h2>
+      <section class="formulaire">
+        <h2>Contact</h2>
 
         <article>
-          <h3>La "classique"</h3>
-            <div>
-              <figure>
-               <img class="imageproduit" src="images/piscine1.png" alt="piscine">
-              </figure>
-              <p>Piscine classique, sobre et élégante, munie de cabines de douche et d'un balcon. Revivez l'ambiance insouciante et exitante
-                des années 30 chez vous! Quand vous aurez dépensé toutes vos économies pour payer l'eau pour la remplir, vous pourrez mêmen
-                la transformer en piscine municipale pour renflouer vos caisses. A vous les cris d'enfants de 8h à 17h30, les douches
-                glacées et les pédiluves douteux!</p>
-            </div>
-          <a href="url">BUY</a>
+          <h3>Devis en un clic</h3>
+          <form method="post" action="traitement.php">
+            <p>
+              <label>Nom</label> : <input type="text" name="Nom" required /><br />
+              <label>Prénom</label> : <input type="text" name="Prenom" required /><br />
+              <label>Email</label> : <input type="url" required/><br />
+              <label>Tel</label> : <input type="tel" required/><br />
+              <label>Prix envisagé</label> : <input type="number" min="14500" /><br />
+              Modèle souhaité :<br />
+              <input type="radio" name="modele" value="classique"/> <label for="classique">La classique</label><br />
+              <input type="radio" name="modele" value="exotique"/> <label for="exotique">L'exotique</label><br />
+              <input type="radio" name="modele" value="jamesbond"/> <label for="jamesbond">La James Bond</label><br />
+              <label for="message">Message</label> :<br /> <textarea name="message"></textarea><br />
+              <input type="submit" value="Envoyer" class="envoyer" />
+            </p>
+          </form>
         </article>
-
-        <article>
-          <h3>L' "Exotique"</h3>
-           <div>
-            <figure>
-             <img class="imageproduit" src="images/piscine2.png" alt="piscine">
-            </figure>
-            <p>Vous avez toujours rêvé de partir en vacances mais vous êtes malade en avion ? Votre femme vous coûte trop cher en bagage de soute?
-            Ce modèle est fait pour vous! Inspiré des plages traditionnelles exotiques de haute normandie, cette piscine vous offrira le dépaysement
-            à un coût défiant toute concurrence. Finis les voyages en avion, les bouchons, les billets de train trop chers! Avec cette piscine, c'est
-            les vacances toute l'année! Demandez à Germaine de ressortir sa jupe en feuilles de bananier et son soutien gorge en noix de coco, et à vous
-            les vahinées peu farouches!</p>
-           </div>
-          <a href="url">BUY</a>
-        </article>
-
-        <article>
-          <h3>La "James Bond"</h3>
-           <div>
-            <figure>
-             <img class="imageproduit" src="images/piscine3.png" alt="piscine">
-           </figure>
-            <p>Vous êtes secrètement fan de méchants de films d'espionnage ? Offrez vous cette piscine de vrai méchant de James Bond!
-            Avec son rideau en fer déployable à tout instant en un clic, vous pourrez noyer vos pires ennemis, ou les faire dévorer par vos requins
-            domestiques! <br />
-           *Requins non-inclus. Nous ne pouvons pas être tenus responsables en cas de décès d'un de vos proches.</p>
-           </div>
-          <a href="url">BUY</a>
-        </article>
-
       </section>
+
+
   <!--~~~~~~~~~~~~~~~~~~~~~ end of the section products~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 
@@ -141,10 +116,10 @@
   <footer>
         <nav>
           <li>
-            <ul><a class="lienpage"   href="url">Accueil</a></ul>
-            <ul><a href="url">Tarifs</a></ul>
-            <ul><a href="url">Contact</a></ul>
-            <ul><a href="url">link text</a></ul>
+            <ul><a href="index.html">Accueil</a></ul>
+            <ul><a href="tarif.html">Tarifs</a></ul>
+            <ul><a class="lienpage" href="contact.html">Contact</a></ul>
+            <ul><a href="entreprise.html">Entreprise</a></ul>
           </li>
         </nav>
 
