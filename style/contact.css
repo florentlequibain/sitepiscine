@@ -163,11 +163,11 @@ header aside, header section
   */
 .formulaire
 {
-  width: 75%;
-  height: 1200px;
+  width: 60%;
+  height: 1100px;
+  margin-left: 10%;
   margin-top: 2em;
-  padding: 2%;
-  background-color: red;
+  
 }
 
 .formulaire h2
@@ -194,14 +194,12 @@ header aside, header section
 .formulaire article
 {
   background-color:rgba(0,0,0,0.2);
-  width: 40%;
-  height: 450px;
+  width: 60%;
+  height: 510px;
   border-radius: 10px;
-  margin:1%;
-  padding-right: 50px;
-  display: inline-block;
+  margin: auto;
+  margin-top: 10px;
   vertical-align: top;
-  text-align:right;
 }
 
 .formulaire article h3
@@ -210,21 +208,28 @@ header aside, header section
   font-size: 1.8em;
 }
 
-td
+.form1
 {
-  border:1px solid black;
+  text-align: right;
+  width: 84%;
+  margin: auto;
 }
 
-
-th
+.form2
 {
-  border:1px solid black;
+  margin: auto;
+  width: 60%;
 }
 
-
-table
+.form2 textarea
 {
-  border-collapse: collapse;
+  width: 300px;
+  height: 100px;
+}
+
+figure iframe
+{
+  margin: auto;
 }
 
   /*
